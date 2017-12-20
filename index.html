@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- essa linha do charset não tava no vídeo! -->
+    <meta charset="utf-8">
+    <title>Curso de HTML5 e CSS</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+  
+<body>
+    
+    <nav>
+        <a href="#">Taty Festas</a>
+        <ul>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#servicos">SERVIÇOS</a></li>
+            <li><a href="#portfolio">PORTFÓLIO</a></li>
+            <li><a href="#contato">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 class="wow flip">Taty Festas</h1>
+        <p class="wow bounceInUp"><span>Tudo para sua Festa...<br>Salgados e Doces!.</span></p>
+    </header>
+
+    <section id="sobre">
+        <h2>SOBRE</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.</p>
+        
+    </section>
+
+    <section id="servicos">
+        <h2>SERVIÇOS</h2>
+        <div>
+            <img src="img/configs.png" alt="Engrenagens">
+            <h3>Fácil Integração</h3>
+            <p>Integra facilmente seu site a qualquer gerenciador de conteúdo.</p>
+        </div>
+        <div>
+            <img src="img/hospedagem.png" alt="Servidor">
+            <h3>Hospedagem Moderna</h3>
+            <p>Não deixe seus clientes na mão. Tenha seu site 24hrs no ar.</p>
+        </div>
+        <div>
+            <img src="img/site.png" alt="Navegador">
+            <h3>Melhores Práticas</h3>
+            <p>Código legível, desenvolvido com as melhores práticas.</p>
+        </div>
+        <div>
+            <img src="img/coracao.png" alt="Coração">
+            <h3>Feito com Amor</h3>
+            <p>É melhor fazer seus sites com amor hoje em dia!</p>
+        </div>
+        
+    </section>
+
+    <section id="portfolio">
+        <h2>PORTFÓLIO</h2>
+        <img src="img/portfolio-1.jpg" alt="cogumelos" class="wow fadeInLeft">
+        <img src="img/portfolio-2.jpg" alt="Sol no horizonte" class="wow fadeInDown">
+        <img src="img/portfolio-3.jpg" alt="Pessoas à beira de vale" class="wow fadeInRight">
+        <img src="img/portfolio-4.jpg" alt="Floresta nevada" class="wow fadeInLeft">
+        <img src="img/portfolio-5.jpg" alt="Praia deserta" class="wow fadeInUp">
+        <img src="img/portfolio-6.jpg" alt="Alce à beira de rio" class="wow fadeInRight">
+        
+        
+        
+    </section>
+    
+    <section id="contato">
+        <h2>CONTATO</h2>
+        <p>Entre em contato conosco.</p>
+        <div>
+        	<img src="img/fone2.png" alt="fone" class="wow shake">
+            <p><a href="tel:xx55555555">(21) 99999-9999</a></p>
+        </div>
+
+        <div>
+            <img src="img/contato.png" alt="email" class="wow shake">
+            <p><a href="mailto:email@contato.com">tatylgsilva@gmail.com</a></p>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>Desenvolvido por ADPDesign.</p>
+    </footer>
+
+	<script src="js/jquery.js"></script>
+    <script src="js/wow.min.js"></script>
+          
+    <script>
+        
+        $(function () {
+        
+            $('[data-toggle="popover"]').popover()
+        
+        })
+      
+    </script>
+    <script>
+    	
+    	new WOW().init();
+
+    </script>
+    
+</body>
+</html>
